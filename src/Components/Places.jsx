@@ -32,7 +32,7 @@ const Places = () => {
 
                     <h1 className="divTwoHeading">Top 5 Posts</h1>
 
-                    <Link to={`/Hollywood/article/${info[32].id}`} className="subLink">
+                    <Link to={`/Places/article/${info[32].id}`} className="subLink">
                 <div className="subDivTwo">
                     <img src={info[32].img} className="imgTwo" alt=""></img>
                     <h1 className="subDivRank">1</h1>
@@ -42,7 +42,7 @@ const Places = () => {
                 </Link>
 
 
-                <Link to={`/bollywood/article/${info[28].id}`} className="subLink">
+                <Link to={`/Places/article/${info[28].id}`} className="subLink">
                 <div className="subDivThree">
                     <img src={info[28].img} className="imgThree" alt=""></img>
                     <h1 className="subDivRankThree">2</h1>
@@ -51,7 +51,7 @@ const Places = () => {
                 </div>
                 </Link>
 
-                <Link to={`/bollywood/article/${info[34].id}`} className="subLink">
+                <Link to={`/Places/article/${info[34].id}`} className="subLink">
                 <div className="subDivThree">
                     <img src={info[34].img} className="imgThree" alt=""></img>
                     <h1 className="subDivRankThree">3</h1>
@@ -60,7 +60,7 @@ const Places = () => {
                 </div>
                 </Link>
 
-                <Link to={`/bollywood/article/${info[31].id}`} className="subLink">
+                <Link to={`/Places/article/${info[31].id}`} className="subLink">
                 <div className="subDivThree">
                     <img src={info[31].img} className="imgThree" alt=""></img>
                     <h1 className="subDivRankThree">4</h1>
@@ -69,7 +69,7 @@ const Places = () => {
                 </div>
                 </Link>
                 
-                <Link to={`/bollywood/article/${info[37].id}`} className="subLink">
+                <Link to={`/Places/article/${info[37].id}`} className="subLink">
                 <div className="subDivThree">
                     <img src={info[37].img} className="imgThree" alt=""></img>
                     <h1 className="subDivRankThree">5</h1>

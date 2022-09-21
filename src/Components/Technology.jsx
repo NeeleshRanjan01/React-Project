@@ -32,48 +32,48 @@ const Technology = () => {
 
                     <h1 className="divTwoHeading">Top 5 Posts</h1>
 
-                    <Link to={`/Hollywood/article/${info[1].id}`} className="subLink">
+                    <Link to={`/Technology/article/${info[42].id}`} className="subLink">
                         <div className="subDivTwo">
-                            <img src={info[1].img} className="imgTwo" alt=""></img>
+                            <img src={info[42].img} className="imgTwo" alt=""></img>
                             <h1 className="subDivRank">1</h1>
-                            <h2 className="subDivHeadingTwo">{info[1].title}</h2><br />
+                            <h2 className="subDivHeadingTwo">{info[42].title}</h2><br />
                             <p className="subDivPraTwo">{info[1].category} {info[1].date}</p>
                         </div>
                     </Link>
 
 
-                    <Link to={`/bollywood/article/${info[3].id}`} className="subLink">
+                    <Link to={`/Technology/article/${info[46].id}`} className="subLink">
                         <div className="subDivThree">
-                            <img src={info[3].img} className="imgThree" alt=""></img>
+                            <img src={info[46].img} className="imgThree" alt=""></img>
                             <h1 className="subDivRankThree">2</h1>
-                            <h3 className="subDivHeadingThree">{info[3].title}</h3><br />
+                            <h3 className="subDivHeadingThree">{info[46].title}</h3><br />
                             <p className="subDivPraThree">{info[1].category} {info[1].date}</p>
                         </div>
                     </Link>
 
-                    <Link to={`/bollywood/article/${info[5].id}`} className="subLink">
+                    <Link to={`/Technology/article/${info[44].id}`} className="subLink">
                         <div className="subDivThree">
-                            <img src={info[5].img} className="imgThree" alt=""></img>
+                            <img src={info[44].img} className="imgThree" alt=""></img>
                             <h1 className="subDivRankThree">3</h1>
-                            <h3 className="subDivHeadingThree">{info[5].title}</h3><br />
+                            <h3 className="subDivHeadingThree">{info[44].title}</h3><br />
                             <p className="subDivPraThree">{info[1].category} {info[1].date}</p>
                         </div>
                     </Link>
 
-                    <Link to={`/bollywood/article/${info[4].id}`} className="subLink">
+                    <Link to={`/Technology/article/${info[41].id}`} className="subLink">
                         <div className="subDivThree">
-                            <img src={info[4].img} className="imgThree" alt=""></img>
+                            <img src={info[41].img} className="imgThree" alt=""></img>
                             <h1 className="subDivRankThree">4</h1>
-                            <h3 className="subDivHeadingThree">{info[4].title}</h3><br />
+                            <h3 className="subDivHeadingThree">{info[41].title}</h3><br />
                             <p className="subDivPraThree">{info[1].category} {info[1].date}</p>
                         </div>
                     </Link>
 
-                    <Link to={`/bollywood/article/${info[8].id}`} className="subLink">
+                    <Link to={`/Technology/article/${info[45].id}`} className="subLink">
                         <div className="subDivThree">
-                            <img src={info[8].img} className="imgThree" alt=""></img>
+                            <img src={info[45].img} className="imgThree" alt=""></img>
                             <h1 className="subDivRankThree">5</h1>
-                            <h3 className="subDivHeadingThree">{info[8].title}</h3><br />
+                            <h3 className="subDivHeadingThree">{info[45].title}</h3><br />
                             <p className="subDivPraThree">{info[1].category} {info[1].date}</p>
                         </div>
                     </Link>
