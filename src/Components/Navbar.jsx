@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
 
-            <div className={isActive ? 'threeline' : 'MQlink'} onClick={handleClick}>
+            <div className={isActive ? 'MQlink' : 'threeline'} onClick={handleClick}>
                 <NavLink to="/" className={({ isActive }) => (isActive ? "activeLinksName" : "linksName")}>Home</NavLink>
                 <NavLink to="/bollywood" className={({ isActive }) => (isActive ? "activeLinksName" : "linksName")}>Bollywood</NavLink>
                 <NavLink to="/technology" className={({ isActive }) => (isActive ? "activeLinksName" : "linksName")}>Technology</NavLink>
